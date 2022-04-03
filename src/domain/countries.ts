@@ -3,6 +3,8 @@
 // Countries images => https://github.com/djaiss/mapsicon
 // Country area => https://github.com/samayo/country-json/blob/master/src/country-by-surface-area.json
 
+const badCountryCodesWithImage = ["mx"];
+
 const countryCodesWithImage = [
   "ad",
   "ao",
@@ -1729,7 +1731,7 @@ export const countries: Country[] = [
 ];
 
 export const countriesWithImage = countries.filter((c) =>
-  countryCodesWithImage.includes(c.code.toLowerCase())
+  badCountryCodesWithImage.includes(c.code.toLowerCase())
 );
 
 // Source: https://fr.wikipedia.org/wiki/ISO_3166
