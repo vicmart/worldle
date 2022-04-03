@@ -5,6 +5,7 @@
 
 const badCountryCodesWithImage = ["mx"];
 
+/**
 const countryCodesWithImage = [
   "ad",
   "ao",
@@ -248,7 +249,7 @@ const countryCodesWithImage = [
   "ua",
   "ve",
   "ye",
-];
+]; */
 
 export interface Country {
   code: string;
