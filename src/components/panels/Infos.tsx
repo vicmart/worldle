@@ -146,20 +146,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             source code
           </a>
           )
-        </div>
-        <div>
-          Want to support?{" "}
-          <a
-            className="underline"
-            href="https://www.ko-fi.com/teuteuf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Twemoji
-              text="Buy me a coffee! ☕"
-              options={{ className: "inline-block" }}
-            />
-          </a>
+          <br />
+          Forked by Vicmart
         </div>
       </div>
     </Panel>

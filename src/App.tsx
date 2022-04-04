@@ -142,7 +142,8 @@ function App({
                 <div className="w-max">{t(`support.${country.code}`)}</div>
               </a>
             ) : (
-              <a
+              <div></div>
+              /**<a
                 className="underline pl-1"
                 href="https://www.ko-fi.com/teuteuf"
                 target="_blank"
@@ -154,7 +155,7 @@ function App({
                     options={{ className: "inline-block" }}
                   />
                 </div>
-              </a>
+              </a>**/
             )}
           </footer>
         </div>
